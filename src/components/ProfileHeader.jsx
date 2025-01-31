@@ -8,7 +8,7 @@ const ProfileHeader = ({ profileHolder }) => {
         alt={`Profile Picture of ${profileHolder.name}`}
         className={styles.profilePic}
       />
-      <h2>{profileHolder.name}</h2>
+      <h2 className={styles.name}>{profileHolder.name}</h2>
       <p>STAY CONNECTED WITH {profileHolder.name.split(" ")[1]}</p>
     </div>
   );

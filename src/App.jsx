@@ -11,7 +11,7 @@ const App = () => {
       <Routes>
         <Route path={`${base}/`} element={<HomePage />} />
         <Route path="*" element={<HomePage />} />
-        </Routes>
+      </Routes>
     </div>
   );
 };

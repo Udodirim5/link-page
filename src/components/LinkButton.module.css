@@ -1,21 +1,28 @@
-.linkList {
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
   background: #d4f7c5;
   padding: 15px;
   margin: 5px;
-  width: 90%;
-  display: flex;
-  gap: 1rem;
-  align-items: center;
   border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
   transition: all 0.3s ease;
+  position: relative;
 }
 
-.linkList:hover {
+.linkContainer:hover {
   background: #b9e8a5;
+}
+
+.linkList {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+  text-decoration: none;
+  color: #011a10;
+  font-weight: bold;
 }
 
 .LinkIcon {
@@ -23,4 +30,15 @@
   height: 50px;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.optionBtn {
+  all: unset;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
 }
