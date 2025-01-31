@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-scrollbar: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #011a10;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 3rem 0;
+}

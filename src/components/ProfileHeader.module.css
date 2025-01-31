@@ -1,0 +1,25 @@
+.profileHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 1rem 1rem;
+  box-shadow: inset 0 0 10px #000;
+  border-radius: 20px;
+}
+
+.profilePic {
+  border: 4px solid #034127;
+  width: 150px;
+  height: 150px;
+  border-radius: 40px;
+}
+
+h2 {
+  margin:2rem 0 1rem 0;
+  line-height: 0;
+}
+
+p {
+  text-transform: uppercase;
+}

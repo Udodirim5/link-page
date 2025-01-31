@@ -1,0 +1,24 @@
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  align-items: center;
+  background-color: #034127;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.icons {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    background-color: #215944;
+  }
+}
+
