@@ -8,15 +8,5 @@ const basename = isProduction ? "/link-page/" : "/";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: basename,
-  server: {
-    host: true, 
-    port: 5173, 
-    strictPort: true,
-    hmr: {
-      clientPort: 443,
-    },
-    allowedHosts: ["9ebc-102-90-96-163.ngrok-free.app"],
-  },
-  
+  base: basename,  
 });
