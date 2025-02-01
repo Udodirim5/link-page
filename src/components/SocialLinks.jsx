@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const socialLinks = [
   { logo: "facebook", link: "#" },
-  { logo: "instagram", link: "#" },
   { logo: "telegram", link: "https://www.t.me/streaks_fx" },
   { logo: "youtube", link: "https://youtube.com/@streaks_fx?si=roqGTNjcQIdSZ72X" },
   { logo: "whatsapp", link: "https://whatsapp.com/channel/0029VakOgTbI1rcdEU616l0L" },

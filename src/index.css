@@ -1,5 +1,6 @@
 :root {
   --primary: #011a10;
+  --secondary: #D4F7C5;
 }
 
 * {
@@ -16,8 +17,10 @@
 
 body {
   background-color: var(--primary);
-  color: white;
+  color: var(--secondary);
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
