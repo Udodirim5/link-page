@@ -14,7 +14,7 @@ const LinkButton = ({ label, link, image, onOptionsClick }) => {
           src={`${import.meta.env.BASE_URL}${image}`}
           alt={`Icon of ${label}`}
         />
-        {label}
+        <p className={styles.linkText}>{label}</p>
       </Link>
 
       {/* Independent Button */}

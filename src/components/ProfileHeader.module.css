@@ -21,6 +21,6 @@
   line-height: 0;
 }
 
-p {
+.profileHeader p {
   text-transform: uppercase;
 }

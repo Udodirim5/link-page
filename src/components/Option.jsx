@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import styles from "./Option.module.css";
 
 const Option = ({ link, onOptionsClick }) => {
@@ -16,16 +17,10 @@ const Option = ({ link, onOptionsClick }) => {
             className={styles.optionImage}
           />
           <h2>{link.label}</h2>
-          <p>
-            By registering with {link.name}, you agree to our{" "}
-            <a href="#">Terms of Service</a> and{" "}
-            <a href="#">Privacy Policy</a>.
-          </p>
-          <p>
-            <a href={link.link} target="_blank" rel="noopener noreferrer">
-              Register here
-            </a>
-          </p>
+          <p>{link.description}</p>
+          <Link to={link.link} target="_blank" rel="noopener noreferrer">
+            Register here
+          </Link>
         </main>
       </div>
     </aside>
