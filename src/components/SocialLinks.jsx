@@ -1,14 +1,7 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import styles from "./SocialLinks.module.css";
 import { Link } from "react-router-dom";
-
-const socialLinks = [
-  { logo: "facebook", link: "#" },
-  { logo: "telegram", link: "https://www.t.me/streaks_fx" },
-  { logo: "youtube", link: "https://youtube.com/@streaks_fx?si=roqGTNjcQIdSZ72X" },
-  { logo: "whatsapp", link: "https://whatsapp.com/channel/0029VakOgTbI1rcdEU616l0L" },
-  { logo: "tiktok", link: "#" },
-];
+import {socialLinks} from "../../data/data";
 
 const SocialLinks = () => {
   return (

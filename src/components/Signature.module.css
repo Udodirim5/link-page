@@ -1,0 +1,16 @@
+.signature {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  text-align: right;
+  width: 100%;
+  border-radius: 1rem;
+  color: var(--secondary);
+  margin-top: 2rem;
+}
+
+.signature p {
+  display: inline-block;
+  transform: rotate(-5deg);
+}
